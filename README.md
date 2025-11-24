@@ -1,18 +1,20 @@
 # Feeling Logger 🌈
 
-A minimal, beautiful app for logging your daily emotions. Track how you feel each day with an intuitive, color-coded interface that helps you explore and understand your emotional landscape.
+A minimal, beautiful app for logging your daily emotions with an **Apple Watch-inspired UI**. Track how you feel each day with an intuitive, circular interface that zooms and scales as you pan around your emotional landscape.
 
 ## Features ✨
 
-- **2D Scrollable Feelings Grid**: Explore feelings by scrolling in any direction. Related emotions are positioned close together for easy discovery.
-- **Color-Coded Emotions**: Each feeling has a unique color that reflects its emotional tone (warm colors for joy, cool colors for calm, etc.).
-- **Daily Logging**: Log one feeling per day and build a consistent tracking habit.
-- **Search Functionality**: Quickly find the perfect word for your emotion with real-time search.
-- **History & Streaks**: View your emotional journey over time and track your logging streak.
-- **Daily Notifications**: Set up gentle reminders to check in with yourself regularly.
-- **Help & Guidance**: Built-in tooltips and instructions to guide your emotional tracking journey.
-- **Encouraging Messages**: Receive positive affirmations when you log your feelings.
-- **Beautiful Animations**: Smooth, delightful animations throughout the app.
+- **Apple Watch-Style Interface**: Beautiful circular feeling bubbles arranged in concentric rings that zoom based on distance from center
+- **Pan & Zoom Navigation**: Drag to explore feelings with smooth, responsive interactions. Feelings closer to the center appear larger
+- **60+ Color-Coded Emotions**: Each feeling has a unique color that reflects its emotional tone (warm colors for joy, cool colors for calm, etc.)
+- **Circular Honeycomb Layout**: Related emotions are positioned close together in an organic, flowing layout
+- **Daily Logging**: Log one feeling per day and build a consistent tracking habit
+- **Search Functionality**: Quickly find the perfect word for your emotion with real-time search
+- **History & Streaks**: View your emotional journey over time and track your logging streak
+- **Daily Notifications**: Set up gentle reminders to check in with yourself regularly
+- **Help & Guidance**: Built-in tooltips and instructions to guide your emotional tracking journey
+- **Encouraging Messages**: Receive positive affirmations when you log your feelings
+- **Smooth Animations**: Delightful animations with Apple Watch-like scaling and transitions
 
 ## Getting Started 🚀
 
