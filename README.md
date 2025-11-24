@@ -51,17 +51,47 @@ npm run build
 
 The built files will be in the `dist` directory.
 
+### Deploying to GitHub Pages 🚀
+
+#### Option 1: Manual Deployment
+
+```bash
+npm run deploy
+```
+
+This will build the app and deploy it to the `gh-pages` branch.
+
+#### Option 2: Using the Deploy Script
+
+```bash
+./deploy.sh
+```
+
+#### Option 3: Automatic Deployment with GitHub Actions
+
+The repository includes a GitHub Actions workflow that automatically deploys to GitHub Pages when you push to the `main` branch.
+
+To enable it:
+1. Go to your repository settings
+2. Navigate to Pages section
+3. Set Source to "GitHub Actions"
+4. Push to `main` branch to trigger deployment
+
+The app will be available at: `https://<username>.github.io/emotion/`
+
 ## How to Use 📖
 
-1. **Explore Feelings**: Scroll through the colorful grid to discover different emotions. Related feelings are grouped together.
+1. **Pan Around**: Click and drag (or swipe on mobile) to explore the circular feeling landscape. Feelings closer to the center appear larger, just like Apple Watch!
 
-2. **Select Your Feeling**: Click or tap on the feeling that best matches how you're experiencing today.
+2. **Explore Feelings**: Related emotions are positioned close together in concentric rings. Watch them zoom and scale as you navigate.
 
-3. **Log It**: Press the "Log This Feeling" button to save your daily emotion.
+3. **Select Your Feeling**: Click or tap on the feeling that best matches how you're experiencing today.
 
-4. **Track Your Progress**: View your history to see patterns and celebrate your logging streak!
+4. **Log It**: Press the "Log This Feeling" button to save your daily emotion.
 
-5. **Enable Notifications**: Set up daily reminders to maintain a consistent tracking habit.
+5. **Track Your Progress**: View your history to see patterns and celebrate your logging streak!
+
+6. **Enable Notifications**: Set up daily reminders to maintain a consistent tracking habit.
 
 ## Technology Stack 🛠️
 
@@ -76,7 +106,7 @@ The built files will be in the `dist` directory.
 
 ### Feelings Data Model
 
-The app includes 50+ carefully curated feelings organized by categories:
+The app includes 55+ carefully curated feelings organized by categories:
 - Joy/Happiness
 - Love/Affection
 - Calm/Peace
